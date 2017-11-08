@@ -1,0 +1,118 @@
+* {
+  font-family: 'Open Sans', 'sans-serif';
+}
+
+h1 {    
+  color: #ED458B;
+  font-weight: 700;
+  font-size: 42px;
+  padding-top: 24px;
+  margin: 0;
+}
+
+h1 span {
+  color: #E6E7E8;
+  font-weight: 300;
+}
+
+header {
+  background-color: #404041;
+  height: 100px;
+  text-align: center;
+}
+
+section {
+  display: block;
+  margin: auto;
+  text-align: center;
+  width: 50%;
+}
+article {
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+p {
+  color: #404041;
+  font-size: 100%;
+  font-weight: 300;
+  margin: 0px;
+}
+
+.advice {
+  font-weight: 300;
+}
+
+input:focus {
+    outline:none;
+}
+
+input[type="submit"], input[type="reset"]  {
+  background-color: #929497;
+  border: none;
+  border-radius: 20px;
+  color: #ffffff;
+  font-size: 100%;
+  font-weight: 300;
+  margin-top: 30px;
+  transition: 0;
+  padding: 2px 2px;
+  margin-bottom: 30px;
+}
+
+.user-input {
+  display: block;
+  font-weight: 300;
+  font-size: 100%;
+  margin: auto;
+  margin-top: 30px;
+  width: 50%;
+  }
+
+.submit, .clear {
+  display: inline;
+  width: 25%;
+}
+
+#reset-button{
+  width: 50%;
+  font-size: 90%;
+}
+
+.guess {
+  color: #ED458B;
+  font-size: 7em;
+  font-weight: 300;
+  line-height: 100%;
+}
+
+.user-values {
+  display: inline-block;
+  font-size: 100%;
+}
+
+input:disabled, input:disabled:hover {
+  background-color: #D0D2D3;
+  transition: 0;
+}
+
+input[type="submit"]:hover:enabled, input[type="reset"]:hover:enabled {
+  background-color: #EB008B;
+  transition-delay: 20ms;
+}
+
+input[type="submit"]:active:enabled, input[type="reset"]:active:enabled {
+ background-color: #ae0168;
+ /*transition-delay: 20ms; */
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+.min-value, .max-value {
+  max-width: 40px;
+}
+

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Number Guesser </title>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet"/>
+</head>
+<body>
+<header><h1> Number <span> Guesser </span></h1>
+</header>
+<section>
+  <form> 
+    <input type="number" name="guess" placeholder="Enter your guess" class="user-input"/>
+    <input type="submit" name="enter" label="Guess" class="submit" value="Guess" />
+    <input type="reset" value="Clear" name="reset" class="clear">
+  <article><p> Your last guess was </p>
+  <div class="guess"></div>
+  <div class="advice"></div>
+  </article>
+  <input type="reset" name="reset" value="Reset" class="reset-button" id="reset-button">
+  </form>
+  <hr>
+  <p> Enter your minimum and maximum values, or leave it blank to have the computer choose for you. <p>
+  <p> If you get it right, we'll make it a little harder by increasing that range by 20. </p>
+  <form class= "minmax">
+    <p class = "user-values"> Minimum </p>
+    <input type="number" name="minvalue" label="Minimum Value" class="min-value"/> <p class = "user-values"> Maximum </p>
+    <input type="number" name="maxvalue" label="Maximum Value" class="max-value">
+    <input type="submit" name="enter" label="Set Your Values" class="submit-values">
+  </form>  
+</section>
+<script type="text/javascript" src="script.js"> </script>
+  </body>
+</html>
